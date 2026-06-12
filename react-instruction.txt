@@ -1,0 +1,43 @@
+
+Niaz Hasan Rafin
+
+
+Thu, Jun 11, 10:42 AM (1 day ago)
+to me
+
+REACT. ENVIRONMENT SETUP
+===
+1.NODE js DOWNLOAD AND INSTAL
+commandline-
+(node-v, nmp-v){versioncheck}
+
+2.VS CODE & EXTENSION
+ES7+auton rename tag / html to jsx/ perettier code formeter.
+{emmet to javascript(ctrl + ,}
+
+3.INSTALL REACT APP (Folder code . + cmd run kora lagbe)
+npx create-react-app (your app name)
+npm  start
+
+4.npm install react-router-dom
+
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import About from './About';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
+
+export default App;
+5.AXIOS.
+React can't handle server .
+npm install axios(command)
