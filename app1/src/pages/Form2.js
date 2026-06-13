@@ -17,7 +17,7 @@ export default function Form2() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    axios.post("http://localhost/react-70/app1/api/user_creat.php", inputs)
+    axios.post("http://localhost/rafin/react-70/app1/api/user_creat.php", inputs)
       .then(res => {
         console.log('Data sent:', res.data);
         alert(res.data.message); 

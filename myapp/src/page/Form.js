@@ -23,7 +23,7 @@ export default function Form2() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    axios.post("http://localhost/react-70/myapp/api/user_create.php", inputs)
+    axios.post("http://localhost/rafin/react-70/myapp/api/user_create.php", inputs)
       .then(res => {
         alert(res.data.message);
       })

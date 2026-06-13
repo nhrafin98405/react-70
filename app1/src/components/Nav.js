@@ -32,7 +32,12 @@ export default function Nav() {
        <li className="nav-item">
         <Link className="nav-link" to="/forms2">Form2</Link>
       </li>
-      
+      <li className="nav-item">
+        <Link className="nav-link" to="/displaydata">DisplayData</Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/userlist">User List</Link>
+      </li>
     </ul>
   </div>
 </nav>

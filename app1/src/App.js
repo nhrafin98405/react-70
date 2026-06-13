@@ -12,6 +12,8 @@ import Event from './pages/Event';
 import List from './pages/List';
 import Forms from './pages/Forms';
 import Form2 from './pages/Form2';
+import UserList from './pages/UserList';
+import DisplayData from './pages/DisplayData';
 
 
 export default function App() {
@@ -29,6 +31,8 @@ export default function App() {
         <Route path="/list" element={<List />} />
         <Route path="/forms" element={<Forms />} />
         <Route path="/forms2" element={<Form2/>} />
+        <Route path="/userlist" element={<UserList/>} />
+        <Route path="/displaydata" element={<DisplayData/>} />
       </Routes>
     </BrowserRouter>
     </>
